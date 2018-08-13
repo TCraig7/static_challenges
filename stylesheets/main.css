@@ -1,0 +1,83 @@
+header {
+  background: #cc0000;
+  color: white;
+  height: 50px;
+  padding: 0px 25px;
+}
+
+header h1 {
+  float: left;
+  height: 35px;
+  margin-top: 15px;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+header a {
+  float: right;
+  color: white;
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+nav {
+  background: #404040;
+  color: white;
+  height: 40px;
+  padding: 0 25px;
+}
+
+nav a {
+  color: white;
+  height: 40px;
+  padding: 0 5px;
+  margin-top: 10px;
+  float: right;
+  font-size: 12px;
+}
+
+.main {
+  flex: 75%;
+  background-color: white;
+  padding: 20px;
+}
+
+.main img {
+  position: relative;
+  width: 75%;
+  height: auto;
+  padding-bottom: 10px
+}
+
+.main h1 {
+  font-weight: bold;
+}
+
+.main p {
+  width: 75%;
+}
+
+.side {
+  padding: 20px;
+}
+
+.side img {
+  float: right;
+  width: 20%;
+  height: auto;
+}
+
+.side h2 {
+  font-weight: bold;
+}
+
+footer {
+  background: #404040;
+  color: white;
+  padding: 15px 25px;
+  font-size: 12px;
+}
